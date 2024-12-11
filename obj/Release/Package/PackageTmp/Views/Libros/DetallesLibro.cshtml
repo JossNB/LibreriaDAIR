@@ -1,0 +1,117 @@
+﻿
+@model LibreriaDAIR.Models.LibroModelo
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del libro</title>
+    <link rel="stylesheet" href="~/css/EstiloLibros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="BarraNavegador">
+                <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+                <span class="BarraBoton" onclick="Menu()">☰</span>
+            </div>
+            <nav>
+                <ul class="BarraMenu" id="barramenu">
+                    <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                    <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                    <li><a href="/Libros/Index">Categorías</a></li>
+                    <li><a href="/Home/Index">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+            <script>
+                function Menu() {
+                    var menu = document.getElementById('barramenu');
+                    menu.classList.toggle('Activa');
+                }
+            </script>
+            <script>
+                function CerrarSesionCliente() {
+                    if (confirm("¿Desea cerrar la sesión?")) {
+                        window.location.href = '/Home/CerrarSesion';
+                    }
+                }
+            </script>
+        </header>
+
+        <main>
+            <div class="estilo-detalles">
+                <img src="data:image/jpeg;base64,@Model._imagen" alt="@Model._titulo" class="imagen-libro" />
+                <div class="info-libro">
+                    <h3>@Model._titulo</h3>
+                    <h4>₡@Model._precio</h4>
+                    <p><strong>Autor:</strong> @Model._autor</p>
+                    <p><strong>Editorial:</strong> @Model._editorial</p>
+                    <p><strong>Idioma: </strong>@Model._idioma</p>
+                    <p><strong>Número de páginas:</strong> @Model._numPaginas</p>
+
+                    <form id="formAgregarCarrito" action="/Carrito/AgregarCarrito" method="post">
+                        <div class="cantidad-libros">
+                            <button type="button" onclick="cambiarCantidad(-1)">-</button>
+                            <input type="text" id="cantidad" name="cantidad" value="1" min="1" />
+                            <button type="button" onclick="cambiarCantidad(1)">+</button>
+                        </div>
+                        <input type="hidden" name="titulo" value="@Model._titulo" />
+                        <input type="hidden" name="precio" value="@Model._precio" />
+                        <button type="submit" class="agregar-carrito">Agregar al carrito</button>
+                        <br />
+                        <br />
+                    </form>
+
+                    <div id="mensajeCarrito" style="display:none; background-color: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px"></div>
+
+                    <a href="@Url.Action("Index", "Libros")" class="custom-link">Volver a categorías</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#formAgregarCarrito').submit(function (e) {
+                e.preventDefault(); // Evitar que el formulario se envíe de forma tradicional
+
+                // Obtener los datos del formulario
+                var formData = $(this).serialize();
+
+                // Realizar la petición AJAX
+                $.ajax({
+                    url: $(this).attr('action'), // La acción del formulario
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        // Mostrar el mensaje de éxito
+                        $('#mensajeCarrito').text(response.mensaje).fadeIn().delay(3000).fadeOut(); // Mostrar mensaje y ocultarlo después de 3 segundos
+                    },
+                    error: function () {
+                        $('#mensajeCarrito').text('Hubo un error al agregar el libro al carrito.').fadeIn().delay(3000).fadeOut();
+                    }
+                });
+            });
+        });
+    </script>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        function cambiarCantidad(cambio) {
+            const cantidadInput = document.getElementById('cantidad');
+            let cantidad = parseInt(cantidadInput.value);
+            cantidad += cambio;
+            if (cantidad < 1) cantidad = 1; // Mantener mínimo en 1
+            cantidadInput.value = cantidad;
+        }
+    </script>
+</body>
+</html>

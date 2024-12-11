@@ -1,0 +1,505 @@
+﻿/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #42a8a1;
+    padding: 10px 20px;
+    text-align: left; /* Alinear el logo a la izquierda por defecto */
+}
+
+.logo {
+    max-width: 250px;
+    margin: auto;
+    position: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #42a8a1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #fff; /* Borde superior */
+    padding-top: 6px; /* Espacio entre los iconos y el borde */
+}
+
+    footer nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+        footer nav ul li {
+            margin: 0 14.5rem; /* Espacio entre íconos en pantallas grandes */
+        }
+
+            footer nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+
+                footer nav ul li a:hover {
+                    color: black;
+                }
+
+.BarraNavegador {
+    background-color: #42a8a1;
+    padding: 10px;
+    position: relative;
+}
+
+.LogoEmpresa {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #333;
+}
+
+.BarraBoton {
+    display: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BarraMenu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .BarraMenu li {
+        margin: 0; /* Elimina cualquier margen entre las opciones */
+        border-bottom: 2px solid #42a8a1;
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333; /* Color del texto */
+        display: block; /* Hace que el enlace ocupe todo el espacio de la opción */
+        padding: 8px 16px; /* Mantener un poco de espacio en el enlace */
+        transition: color 0.3s ease; /* Efecto de transición */
+    }
+
+        .BarraMenu a.Activa {
+            color: #708085;
+            font-weight: bold;
+        }
+
+/* Estilo general para el párrafo de bienvenida */
+.bienvenida {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Estilo general para los select */
+select {
+    width: 100%;
+    max-width: 300px; /* Limitar el ancho máximo de los select */
+    padding: 8px 12px; /* Reducir el padding para que las cajas no sean tan grandes */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    font-size: 0.95em; /* Reducir ligeramente el tamaño de la fuente */
+    color: #333;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrar los select dentro del formulario */
+}
+
+    select:focus {
+        border-color: #007bff;
+        background-color: #f1faff;
+        outline: none;
+    }
+
+    /* Estilos de hover y focus para los select */
+    select:hover {
+        background-color: #f7f7f7;
+    }
+
+    select option {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+/* Estilo para los botones */
+button.btn {
+    background-color: #808080;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrar el botón */
+}
+
+    button.btn:hover {
+        background-color: #6c6c6c;
+    }
+
+/* Contenedor de las tarjetas de costos */
+.costos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilo de cada tarjeta de costo */
+.costo-card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    max-width: 300px;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .costo-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2), -6px -6px 15px rgba(255, 255, 255, 0.7);
+    }
+
+    .costo-card h4 {
+        margin: 0;
+        color: #42a8a1;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .costo-card p {
+        margin: 10px 0;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .costo-card strong {
+        color: #42a8a1;
+        font-weight: bold;
+    }
+
+/* Estilo para los inputs */
+input[type="text"] {
+    width: 100%;
+    max-width: 350px; /* Limitar el ancho máximo del input */
+    padding: 12px 15px; /* Añadir más padding para mayor comodidad */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrar el input dentro del formulario */
+}
+
+    input[type="text"]:focus {
+        border-color: #007bff;
+        background-color: #f1faff;
+        outline: none;
+    }
+
+
+
+/* Estilo para el formulario */
+form {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px; /* Limitar el tamaño máximo del formulario */
+}
+
+/* Estilo para las etiquetas */
+label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+/* Espaciado extra entre los elementos */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+.reseñas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.reseña-card {
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 15px;
+}
+
+    .reseña-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2), -6px -6px 15px rgba(255, 255, 255, 0.7);
+    }
+
+.reseña-header {
+    background-color: #42a8a1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+    .reseña-header h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .reseña-header .usuario {
+        font-size: 14px;
+        margin: 5px 0 0;
+        opacity: 0.8;
+    }
+
+.reseña-body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+    .reseña-body p {
+        margin: 8px 0;
+    }
+
+    .reseña-body strong {
+        color: #42a8a1;
+    }
+
+
+
+.proveedor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2), -6px -6px 15px rgba(255, 255, 255, 0.7);
+    }
+
+.card-header {
+    background-color: #42a8a1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+    .card-header h4 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .card-header .author {
+        font-size: 14px;
+        margin: 5px 0 0;
+        opacity: 0.8;
+    }
+
+.card-body {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+    .card-body p {
+        margin: 8px 0;
+    }
+
+    .card-body strong {
+        color: #42a8a1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+        width: contain;
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+}

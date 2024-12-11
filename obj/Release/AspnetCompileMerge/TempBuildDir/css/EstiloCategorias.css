@@ -1,0 +1,347 @@
+﻿/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    flex: 1;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #42a8a1;
+    padding: 10px 20px;
+    text-align: left; /* Alinear el logo a la izquierda por defecto */
+}
+
+.logo {
+    max-width: 250px;
+    margin: auto;
+    position: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Pie de página */
+footer {
+    background-color: #42a8a1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #fff; /* Borde superior */
+    padding-top: 6px; /* Espacio entre los iconos y el borde */
+}
+
+    footer nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+        footer nav ul li {
+            margin: 0 14.5rem; /* Espacio entre íconos en pantallas grandes */
+        }
+
+            footer nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+
+                footer nav ul li a:hover {
+                    color: black;
+                }
+
+.BarraNavegador {
+    background-color: #42a8a1;
+    padding: 10px;
+    position: relative;
+}
+
+.BarraBoton {
+    display: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BarraMenu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .BarraMenu li {
+        margin: 0; /* Elimina cualquier margen entre las opciones */
+        border-bottom: 2px solid #42a8a1;
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333; /* Color del texto */
+        display: block; /* Hace que el enlace ocupe todo el espacio de la opción */
+        padding: 8px 16px; /* Mantener un poco de espacio en el enlace */
+        transition: color 0.3s ease; /* Efecto de transición */
+    }
+
+        .BarraMenu a.Activa {
+            color: #708085;
+            font-weight: bold;
+        }
+
+.Libros h2 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* Estilo para las tarjetas de libros */
+.LibrosTarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 230px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+    .tarjeta:hover {
+        transform: scale(1.05);
+    }
+
+    .tarjeta img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .tarjeta .informacion {
+        margin-top: 10px;
+    }
+
+        .tarjeta .informacion p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+/* Estilo para las categorias de libros */
+.categorias-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.categoria-tarjeta {
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+    .categoria-tarjeta:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.categoria-img {
+    width: 80%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.categoria-titulo {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+
+    .categorias-container {
+        grid-template-columns: repeat(2, 1fr); /* Mostrar 2 columnas en pantallas pequeñas */
+        gap: 10px; /* Reducir el espacio entre las tarjetas */
+        padding: 10px; /* Ajustar el padding */
+    }
+
+    .categoria-tarjeta {
+        width: 100%; /* Adaptar el ancho de las tarjetas al 100% del contenedor */
+        max-width: 180px; /* Limitar el tamaño máximo */
+    }
+
+    .categoria-titulo {
+        font-size: 16px; /* Reducir ligeramente el tamaño del texto */
+    }
+
+    .LibrosTarjetas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .tarjeta {
+        width: 90%;
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+
+    .categorias-container {
+        grid-template-columns: repeat(2, 1fr); /* Mostrar 2 columnas en pantallas pequeñas */
+        gap: 10px; /* Reducir el espacio entre las tarjetas */
+        padding: 10px; /* Ajustar el padding */
+    }
+
+    .categoria-tarjeta {
+        width: 100%; /* Adaptar el ancho de las tarjetas al 100% del contenedor */
+        max-width: 180px; /* Limitar el tamaño máximo */
+    }
+
+    .categoria-titulo {
+        font-size: 16px; /* Reducir ligeramente el tamaño del texto */
+    }
+
+    .LibrosTarjetas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .tarjeta {
+        width: 90%;
+    }
+}

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreriaDAIR</title>
+    <link rel="stylesheet" href="~/css/EstilosServicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="BarraNavegador">
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+            <span class="BarraBoton" onclick="Menu()">☰</span>
+        </div>
+        <nav>
+            <ul class="BarraMenu" id="barramenu">
+                <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                <li><a href="/Libros/Index">Categorías</a></li>
+                <li>
+                    <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function Menu() {
+                var menu = document.getElementById('barramenu');
+                menu.classList.toggle('Activa');
+            }
+        </script>
+        <script>
+            function CerrarSesionCliente() {
+                if (confirm("¿Desea cerrar la sesión?")) {
+                    window.location.href = '/Home/CerrarSesion';
+                }
+            }
+        </script>
+    </header>
+    <main>
+        <h2>Servicios</h2>
+        <br />
+        <div class="serviciosexternos">
+            <a href="/Costos/ConsultarCostosEnvio">
+                <img src="~/Imagenes/EnviosIcono.png" alt="Envios" width="75" height="75">
+                <p>Costos de envío</p>
+            </a>
+            <a href="/Resennias/BuscarResenias">
+                <img src="~/Imagenes/ReseniasIcono.png" alt="Reseñas" width="75" height="75">
+                <p>Reseñas de libros</p>
+            </a>
+            <a href="/Proveedor/BuscarProveedor">
+                <img src="~/Imagenes/ProveedoresIcono.png" alt="Proveedores" width="75" height="75">
+                <p>Proveedores de libros</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

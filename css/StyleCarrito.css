@@ -1,0 +1,631 @@
+﻿/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    flex: 1;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #42a8a1;
+    padding: 10px 20px;
+    text-align: left; /* Alinear el logo a la izquierda por defecto */
+}
+
+.logo {
+    max-width: 250px;
+    margin: auto;
+    position: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Pie de página */
+footer {
+    background-color: #42a8a1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #fff; /* Borde superior */
+    padding-top: 6px; /* Espacio entre los iconos y el borde */
+}
+
+    footer nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+        footer nav ul li {
+            margin: 0 14.5rem; /* Espacio entre íconos en pantallas grandes */
+        }
+
+            footer nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+
+                footer nav ul li a:hover {
+                    color: black;
+                }
+
+.BarraNavegador {
+    background-color: #42a8a1;
+    padding: 10px;
+    position: relative;
+}
+
+.BarraBoton {
+    display: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.BarraMenu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .BarraMenu li {
+        margin: 0; /* Elimina cualquier margen entre las opciones */
+        border-bottom: 2px solid #42a8a1;
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333; /* Color del texto */
+        display: block; /* Hace que el enlace ocupe todo el espacio de la opción */
+        padding: 8px 16px; /* Mantener un poco de espacio en el enlace */
+        transition: color 0.3s ease; /* Efecto de transición */
+    }
+
+        .BarraMenu a.Activa {
+            color: #708085;
+            font-weight: bold;
+        }
+
+h1 {
+    text-align: center;
+    color: #42a8a1;
+}
+h3{
+    margin-right:1000px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #42a8a1;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #42a8a1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+    button:hover {
+        background-color: #00897B;
+    }
+
+.boton-vaciar {
+    background-color: #42a8a1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 930px;
+    font-weight: bold; /* Hace el texto más grueso */
+}
+
+
+.Comprar-Libro {
+    color: white; /* Color del texto */
+    background-color: darkgrey; /* Color verde para el botón */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    display: inline-block; /* Comportamiento de botón */
+    text-align: center; /* Centra el texto */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efectos de transición */
+}
+
+    .Comprar-Libro:hover {
+        background-color: dimgrey; /* Un tono más oscuro de verde al pasar el mouse */
+        transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+
+form {
+    display: inline; /* Mantener los botones en línea */
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+
+p {
+    text-align: center
+}
+
+.Comprar-Libro {
+    color: black;
+    padding-left: 40px;
+    margin-top: 80px;
+}
+
+.custom-link {
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: #42a8a1; /* Color de fondo del botón */
+    text-decoration: none; /* Remueve el subrayado */
+    font-weight: bold; /* Hace el texto más grueso */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Remueve cualquier borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Asegura que el enlace se comporte como un botón */
+    cursor: pointer; /* Cambia el cursor a la mano */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .custom-link:hover {
+        background-color: #358b82; /* Cambia el color del fondo al pasar el mouse */
+        transform: scale(1.05); /* Efecto de zoom ligero */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+
+
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .doby {
+        flex-direction: row; /* Cambia a fila (row) en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+
+    table th, table td {
+        padding: 8px; /* Reducir padding en pantallas pequeñas */
+        font-size: 0.9em; /* Reducir tamaño de fuente en pantallas pequeñas */
+    }
+
+    /* Hacer la tabla desplazable horizontalmente en pantallas pequeñas */
+    table {
+        overflow-x: auto;
+        display: block; /* Hace que la tabla sea desplazable */
+        width: 100%;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+
+    .boton-vaciar {
+        background-color: #42a8a1;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-left: 300px;
+        font-weight: bold; /* Hace el texto más grueso */
+    }
+
+    h3 {
+        margin-right: 1%;
+    }
+
+    .cantidad-control {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        gap: 10px; /* Espaciado entre elementos */
+        margin: 10px 0; /* Espaciado externo */
+    }
+
+        /* Botones para aumentar/disminuir */
+        .cantidad-control button {
+            display: flex; /* Habilita flexbox */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            background-color: #42a8a1; /* Color verde */
+            color: white; /* Texto blanco */
+            border: none; /* Sin borde */
+            padding: 10px; /* Espaciado interno */
+            font-size: 16px; /* Tamaño de texto */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Mano al pasar */
+            width: 26px; /* Ancho fijo */
+            height: 26px; /* Alto fijo */
+        }
+
+        /* Input de cantidad */
+        .cantidad-control input[type="text"] {
+            text-align: center; /* Centra el texto */
+            font-size: 16px; /* Tamaño de texto */
+            width: 40px; /* Ancho ajustado */
+            padding: 5px; /* Espaciado interno */
+            border: 1px solid #ddd; /* Borde suave */
+            border-radius: 5px; /* Bordes redondeados */
+            background-color: #f9f9f9; /* Fondo claro */
+        }
+}
+
+@media (max-width: 430px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+        width: 100%;
+        margin: 0;
+    }
+
+    .doby {
+        flex-direction: row; /* Cambia a fila (row) en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+
+    table th, table td {
+        padding: 8px; /* Reducir padding en pantallas pequeñas */
+        font-size: 0.9em; /* Reducir tamaño de fuente en pantallas pequeñas */
+    }
+
+    /* Hacer la tabla desplazable horizontalmente en pantallas pequeñas */
+    table {
+        overflow-x: auto;
+        display: block; /* Hace que la tabla sea desplazable */
+        width: 100%;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+
+    .boton-vaciar {
+        background-color: #42a8a1;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-left: 300px;
+        font-weight: bold; /* Hace el texto más grueso */
+    }
+
+    h3 {
+        margin-right: 1%;
+    }
+
+    .cantidad-control {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        gap: 10px; /* Espaciado entre elementos */
+        margin: 10px 0; /* Espaciado externo */
+    }
+
+        /* Botones para aumentar/disminuir */
+        .cantidad-control button {
+            display: flex; /* Habilita flexbox */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            background-color: #42a8a1; /* Color verde */
+            color: white; /* Texto blanco */
+            border: none; /* Sin borde */
+            padding: 10px; /* Espaciado interno */
+            font-size: 16px; /* Tamaño de texto */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Mano al pasar */
+            width: 26px; /* Ancho fijo */
+            height: 26px; /* Alto fijo */
+        }
+
+        /* Input de cantidad */
+        .cantidad-control input[type="text"] {
+            text-align: center; /* Centra el texto */
+            font-size: 16px; /* Tamaño de texto */
+            width: 40px; /* Ancho ajustado */
+            padding: 5px; /* Espaciado interno */
+            border: 1px solid #ddd; /* Borde suave */
+            border-radius: 5px; /* Bordes redondeados */
+            background-color: #f9f9f9; /* Fondo claro */
+        }
+}
+
+
+/* Consulta para pantallas extremadamente pequeñas (menos de 350px) */
+@media (max-width: 350px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+        width: 100%;
+        margin: 0;
+    }
+
+    .doby {
+        flex-direction: row; /* Cambia a fila (row) en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 60px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+
+    .BarraMenu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .BarraMenu.Activa {
+            display: flex;
+        }
+
+    .BarraBoton {
+        display: block;
+        background-color: #42a8a1;
+        text-align: right;
+    }
+
+    /* Barra de menú sin relleno en dispositivos pequeños */
+    .BarraMenu li {
+        margin: 0; /* Sin márgenes entre las opciones */
+        border-bottom: 1px solid black; /* Línea separadora */
+    }
+
+    .BarraMenu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 16px; /* Espacio alrededor del enlace */
+        transition: color 0.3s ease; /* Transición al pasar el ratón */
+    }
+
+    table th, table td {
+        padding: 5px; /* Reducir padding al mínimo */
+        font-size: 0.7em; /* Reducir aún más el tamaño de la fuente */
+    }
+
+    table {
+        font-size: 0.7em; /* Reducir fuente de toda la tabla */
+    }
+
+    .total {
+        font-size: 0.85em; /* Ajustar el tamaño del total */
+    }
+
+    /* Hacer la tabla completamente desplazable en el eje horizontal */
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+        /* Para mejorar la visualización, hacer que el texto de la tabla se ajuste */
+        table th, table td {
+            word-wrap: break-word; /* Asegurar que las palabras largas se rompan */
+        }
+
+    button {
+        font-size: 0.9em;
+    }
+
+    .boton-vaciar {
+        background-color: #42a8a1;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-left: 300px;
+        font-weight: bold; /* Hace el texto más grueso */
+    }
+
+    h3 {
+        margin-right: 1%;
+    }
+
+    .cantidad-control {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        gap: 10px; /* Espaciado entre elementos */
+        margin: 10px 0; /* Espaciado externo */
+    }
+
+        /* Botones para aumentar/disminuir */
+        .cantidad-control button {
+            display: flex; /* Habilita flexbox */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            background-color: #42a8a1; /* Color verde */
+            color: white; /* Texto blanco */
+            border: none; /* Sin borde */
+            padding: 10px; /* Espaciado interno */
+            font-size: 16px; /* Tamaño de texto */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Mano al pasar */
+            width: 26px; /* Ancho fijo */
+            height: 26px; /* Alto fijo */
+        }
+
+        /* Input de cantidad */
+        .cantidad-control input[type="text"] {
+            text-align: center; /* Centra el texto */
+            font-size: 16px; /* Tamaño de texto */
+            width: 40px; /* Ancho ajustado */
+            padding: 5px; /* Espaciado interno */
+            border: 1px solid #ddd; /* Borde suave */
+            border-radius: 5px; /* Bordes redondeados */
+            background-color: #f9f9f9; /* Fondo claro */
+        }
+}

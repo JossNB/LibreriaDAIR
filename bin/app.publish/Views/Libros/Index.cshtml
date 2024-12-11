@@ -1,0 +1,133 @@
+﻿@model List<LibreriaDAIR.Models.LibroModelo>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link rel="stylesheet" href="~/css/EstiloCategorias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="BarraNavegador">
+                <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+                <span class="BarraBoton" onclick="Menu()">☰</span>
+            </div>
+            <nav>
+                <ul class="BarraMenu" id="barramenu">
+                    <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                    <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                    <li><a href="/Libros/Index">Categorías</a></li>
+                    <li><a href="/Home/Index">Cerrar sesión</a></li>
+                </ul>
+            </nav>
+            <script>
+                function Menu() {
+                    var menu = document.getElementById('barramenu');
+                    menu.classList.toggle('Activa');
+                }
+            </script>
+            <script>
+                function CerrarSesionCliente() {
+                    if (confirm("¿Desea cerrar la sesión?")) {
+                        window.location.href = '/Home/CerrarSesion';
+                    }
+                }
+            </script>
+        </header>
+
+        @functions {
+            public string ObtenerImagenCategoria(string categoria)
+            {
+                switch (categoria)
+                {
+                    case "Libros infantiles":
+                        return Url.Content("~/Imagenes/LibrosInfantiles.png");
+                    case "Fantasía":
+                        return Url.Content("~/Imagenes/LibrosFantasia.png");
+                    case "Romance":
+                        return Url.Content("~/Imagenes/LibrosRomance.png");
+                    case "Novela Gráfica":
+                        return Url.Content("~/Imagenes/LibrosNovelaGrafica.jpg");
+                    default:
+                        return Url.Content("~/Imagenes/DefaultCategoria.png"); // Imagen por defecto
+                }
+            }
+        }
+
+        <main class="Libros">
+            <h2>Categorías</h2>
+
+            @if (Model != null && Model.Any()) // Verifica si el modelo no es null y tiene libros
+            {
+                // Agrupamos los libros por categoría
+                var categorias = Model.GroupBy(l => l.Categoria._Nombre);
+
+                <!-- Contenedor para las categorías -->
+                <div class="categorias-container">
+                    @foreach (var categoria in categorias)
+                    {
+                        <div class="categoria-tarjeta" onclick="mostrarLibrosPorCategoria('@categoria.Key')">
+                            <img src="@ObtenerImagenCategoria(categoria.Key)" alt="@categoria.Key" class="categoria-img" />
+                            <h3 class="categoria-titulo">@categoria.Key</h3>
+                        </div>
+                    }
+                </div>
+
+                <!-- Contenedor para mostrar libros -->
+                <div id="contenedorLibros">
+                    @foreach (var categoria in categorias)
+                    {
+                        <section id="categoria-@categoria.Key" style="display: none;">
+                            <div class="LibrosTarjetas">
+                                @foreach (var libro in categoria)
+                                {
+                                    <div class="tarjeta">
+                                        <a style="text-decoration: none;" href="@Url.Action("DetallesLibro", "Libros", new { id = libro._idLibro })">
+                                            <img src="data:image/jpeg;base64,@libro._imagen" alt="@libro._titulo" />
+                                            <div class="informacion">
+                                                <p>@libro._titulo</p>
+                                                <p>₡@libro._precio</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </section>
+                    }
+                </div>
+            }
+            else
+            {
+                <p>No hay libros disponibles.</p>
+            }
+
+            <script>
+                // Función para mostrar libros según la categoría seleccionada
+                function mostrarLibrosPorCategoria(categoria) {
+                    // Ocultar todas las secciones de libros
+                    const secciones = document.querySelectorAll('section[id^="categoria-"]');
+                    secciones.forEach(seccion => seccion.style.display = 'none');
+
+                    // Mostrar la sección de la categoría seleccionada
+                    const seccionSeleccionada = document.getElementById('categoria-' + categoria);
+                    if (seccionSeleccionada) {
+                        seccionSeleccionada.style.display = 'block';
+                    }
+                }
+            </script>
+        </main>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

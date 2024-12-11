@@ -1,0 +1,302 @@
+﻿/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #42a8a1;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Encapsula Bootstrap */
+.bootstrap-scope .form-control,
+.bootstrap-scope .btn,
+.bootstrap-scope .container,
+.bootstrap-scope .text-center,
+.bootstrap-scope .form-group,
+.bootstrap-scope .mt-5,
+.bootstrap-scope .mb-4,
+.bootstrap-scope .btn-block {
+    /* Deja que Bootstrap aplique estilos dentro de esta clase */
+    all: initial;
+    all: revert; /* Soporte para navegadores antiguos */
+    display: inherit;
+}
+
+
+.logo {
+    max-width: 250px;
+    margin: auto;
+}
+
+main {
+    margin-bottom: 50px; /* Espacio entre main y footer */
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row; /* Coloca label e input en fila */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 0; /* Elimina margen inferior */
+    font-size: 1.1em;
+    width: 40%; /* Ajusta el ancho del label */
+    text-align: left; /* Alinea el texto del label a la izquierda */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 60%; /* Ajusta el ancho del input */
+    padding: 10px;
+    border: 1px solid #42a8a1;
+    border-radius: 5px;
+    background-color: #96d6d0; /* Color azul claro */
+    color: #333; /* Color del texto */
+}
+
+.boton-crear {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #42a8a1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #fff; /* Borde superior */
+    padding-top: 6px; /* Espacio entre los iconos y el borde */
+}
+
+    footer nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+        footer nav ul li {
+            margin: 0 14.5rem; /* Espacio entre íconos en pantallas grandes */
+        }
+
+            footer nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+
+                footer nav ul li a:hover {
+                    color: black;
+                }
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilo de la lista sin puntos */
+.card-body ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none; /* Elimina las viñetas de la lista */
+    text-align: center;
+}
+
+/* Estilo de los elementos de la lista */
+.card-body li {
+    font-size: 1rem;
+    margin-bottom: 12px; /* Espacio entre los elementos */
+    position: relative;
+}
+
+    /* Elimina cualquier ícono o marcador antes de los items */
+    .card-body li::before {
+        content: none; /* Elimina cualquier contenido o marcador */
+    }
+
+/* Estilo para los íconos con un diseño más moderno (si quieres usar íconos en vez de puntos) */
+.card-body li {
+    font-size: 1rem;
+    color: #555;
+    padding-left: 15px; /* Añadir un poco de espacio a la izquierda */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    main {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra el contenido verticalmente */
+        align-items: center; /* Centra el contenido horizontalmente */
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em; /* Tamaño del encabezado en móvil */
+    }
+
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .form-group {
+        flex-direction: column; /* Cambia a columna en móvil */
+        align-items: flex-start; /* Alinea a la izquierda */
+        width: 90%; /* Ajusta el ancho de los grupos de formularios */
+    }
+
+    label {
+        width: auto; /* Deja que el label use el ancho necesario */
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%; /* Ancho completo para inputs en móvil */
+    }
+
+    button {
+        max-width: 90%; /* Ajusta el ancho de los botones */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+}
+
+@media (max-width: 430px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    main {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra el contenido verticalmente */
+        align-items: center; /* Centra el contenido horizontalmente */
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em; /* Tamaño del encabezado en móvil */
+    }
+
+    .form-group {
+        flex-direction: column; /* Cambia a columna en móvil */
+        align-items: flex-start; /* Alinea a la izquierda */
+        width: 90%; /* Ajusta el ancho de los grupos de formularios */
+    }
+
+    label {
+        width: auto; /* Deja que el label use el ancho necesario */
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%; /* Ancho completo para inputs en móvil */
+    }
+
+    button {
+        max-width: 90%; /* Ajusta el ancho de los botones */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+}

@@ -1,0 +1,632 @@
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Joceline\source\repos\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Joceline\source\repos\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Joceline\source\repos\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Joceline\source\repos\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Joceline\Documents\Colegio Universitario de Cartago\Cuatrimestre VI\Programación V\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\Proyecto progra\LibreriaDAIR\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\Newtonsoft.Json.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\Newtonsoft.Json.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\Proyecto con APIS\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\Newtonsoft.Json.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\Newtonsoft.Json.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerFinal\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\Newtonsoft.Json.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\Newtonsoft.Json.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\PruebaHosting\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\LibreriaDAIR.dll.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\LibreriaDAIR.pdb
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csi.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csi.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\csi.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.AppContext.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Console.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.IO.Compression.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Net.Http.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.ValueTuple.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\vbc.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\vbc.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\vbc.rsp
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\Newtonsoft.Json.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Helpers.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Mvc.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.Razor.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\Newtonsoft.Json.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Webpages.Razor.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Helpers.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\System.Web.Mvc.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.AssemblyReference.cache
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\obj\Debug\LibreriaDAIR.csproj.CoreCompileInputs.cache
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\obj\Debug\Libreria.FDAEF2CC.Up2Date
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\obj\Debug\LibreriaDAIR.dll
+C:\Users\Liz89\Documents\CUC\Programación V\ProyectoVerRender\LibreriaDAIR\obj\Debug\LibreriaDAIR.pdb

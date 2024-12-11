@@ -1,0 +1,107 @@
+﻿body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #42a8a1;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #42a8a1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #358f8a;
+    }
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Consultas de medios para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        max-width: 400px;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        display: block;
+        width: 50%;
+        padding: 12px;
+        margin-top: 20px;
+        margin-left:83px;
+        margin-bottom:300px;
+        background-color: #42a8a1;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .container {
+        max-width: 400px;
+        margin-top: 90px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        display: block;
+        width: 50%;
+        padding: 12px;
+        margin-top: 20px;
+        margin-left: 83px;
+        margin-bottom: 300px;
+        background-color: #42a8a1;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+}

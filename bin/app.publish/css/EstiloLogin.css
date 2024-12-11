@@ -1,0 +1,302 @@
+﻿/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #42a8a1;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    max-width: 250px;
+    margin: auto;
+}
+
+main {
+    margin-bottom: 50px; /* Espacio entre main y footer */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%; /* Se asegura que los inputs tomen el 100% del ancho del contenedor */
+    max-width: 300px; /* Controla el ancho máximo */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y border en el cálculo del tamaño */
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Asegura que el contenedor de la contraseña tenga el mismo tamaño */
+}
+
+    .password-container input[type="password"] {
+        width: 100%; /* Hace que el input dentro del contenedor ocupe el 100% de su contenedor */
+    }
+
+button,
+a.register-a {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Centrar el texto en ambos */
+    font-size: 16px; /* Ajuste del tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Asegura que ambas usen la misma fuente */
+}
+
+/* Específicos para el enlace */
+a.register-a {
+    display: inline-block; /* Para que se comporte como un botón */
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #42a8a1;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border-top: 3px solid #fff; /* Borde superior */
+    padding-top: 6px; /* Espacio entre los iconos y el borde */
+}
+
+    footer nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+        footer nav ul li {
+            margin: 0 14.5rem; /* Espacio entre íconos en pantallas grandes */
+        }
+
+            footer nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+
+                footer nav ul li a:hover {
+                    color: black;
+                }
+
+.custom-link {
+    color: black; /* Cambia el color del texto */
+    text-decoration: none; /* Remueve el subrayado por defecto */
+    font-weight: bold; /* Hace el texto un poco más grueso */
+    padding: 5px 0; /* Espaciado alrededor para darle un poco de aire */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent; /* Agrega un borde inferior transparente */
+}
+
+    .custom-link:hover {
+        color: #42a8a1; /* Cambia el color al pasar el mouse */
+        border-bottom: 2px solid #42a8a1; /* Muestra un borde inferior de color */
+    }
+
+#cargando {
+    font-size: 16px;
+    color: #42a8a1; /* Color azul */
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: #d9534f; /* Rojo para destacar el error */
+    background-color: #f8d7da; /* Fondo rojo claro */
+    border: 1px solid #f5c6cb; /* Borde rojo claro */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 10px; /* Espacio superior */
+    text-align: center; /* Centrado del texto */
+}
+
+
+/* Consultas de medios para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+ 
+    main {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra el contenido verticalmente */
+        align-items: center; /* Centra el contenido horizontalmente */
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    input[type="email"], input[type="password"] {
+        width: 100%; /* Asegura que los inputs tomen el 100% del ancho disponible */
+        max-width: 300px; /* Limita el tamaño máximo de los inputs */
+        margin-bottom: 15px; /* Espaciado entre los inputs */
+        padding: 10px; /* Espaciado interno de los inputs */
+        border: 1px solid #ccc; /* Borde estándar */
+        border-radius: 5px; /* Bordes redondeados */
+        box-sizing: border-box; /* Asegura que el padding y border estén dentro del tamaño total */
+    }
+
+    button {
+        max-width: 90%; /* Ajusta el ancho de los botones */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+}
+
+@media (max-width: 430px) {
+    header {
+        text-align: center; /* Centrar el logo en pantallas pequeñas */
+    }
+
+    main {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra el contenido verticalmente */
+        align-items: center; /* Centra el contenido horizontalmente */
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    input[type="email"], input[type="password"] {
+        max-width: 90%; /* Ajusta el ancho de los inputs */
+    }
+
+    button {
+        max-width: 90%; /* Ajusta el ancho de los botones */
+    }
+
+    .logo {
+        max-width: 160px; /* Hacer el logo más pequeño en pantallas muy pequeñas */
+    }
+
+    footer nav ul {
+        justify-content: center; /* Mantener los íconos centrados en pantallas pequeñas */
+    }
+
+        footer nav ul li {
+            margin: 0 3.5rem; /* Reducir el margen entre íconos en pantallas pequeñas */
+        }
+
+            footer nav ul li a {
+                font-size: 1.5rem; /* Mantener el tamaño de los íconos */
+            }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

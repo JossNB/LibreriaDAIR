@@ -1,0 +1,129 @@
+﻿@model LibreriaDAIR.Models.RespuestaCostosEnvio
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costos de envío</title>
+    <link rel="stylesheet" href="~/css/EstiloServicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="BarraNavegador">
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+            <span class="BarraBoton" onclick="Menu()">☰</span>
+        </div>
+        <nav>
+            <ul class="BarraMenu" id="barramenu">
+                <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                <li><a href="/Libros/Index">Categorías</a></li>
+                <li>
+                    <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function Menu() {
+                var menu = document.getElementById('barramenu');
+                menu.classList.toggle('Activa');
+            }
+        </script>
+        <script>
+            function CerrarSesionCliente() {
+                if (confirm("¿Desea cerrar la sesión?")) {
+                    window.location.href = '/Home/CerrarSesion';
+                }
+            }
+        </script>
+    </header>
+    <main>
+        <p class="bienvenida">
+            Bienvenido al servicio de costos de envío, complete la información para poder consultar los costos.
+        </p>
+        <br />
+        <form method="get" action="@Url.Action("ConsultarCostosEnvio")">
+            <div class="form-group">
+                <label for="origen">Provincia de Origen:</label>
+                <select id="origen" name="origen" required>
+                    <option value="">Seleccione una provincia</option>
+                    <option value="San José">San José</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Guanacaste">Guanacaste</option>
+                    <option value="Puntarenas">Puntarenas</option>
+                    <option value="Limón">Limón</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="destino">Provincia de Destino:</label>
+                <select id="destino" name="destino" required>
+                    <option value="">Seleccione una provincia</option>
+                    <option value="San José">San José</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Guanacaste">Guanacaste</option>
+                    <option value="Puntarenas">Puntarenas</option>
+                    <option value="Limón">Limón</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tamanio">Tamaño del Paquete:</label>
+                <select id="tamanio" name="tamanio" required>
+                    <option value="">Seleccione el tamaño</option>
+                    <option value="Pequeño">Pequeño</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Grande">Grande</option>
+                    <option value="Extra Grande">Extra Grande</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tipoenvio">Tipo de Envío:</label>
+                <select id="tipoenvio" name="tipoenvio" required>
+                    <option value="">Seleccione el tipo</option>
+                    <option value="Básico">Básico</option>
+                    <option value="Exprés">Exprés</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Consultar</button>
+        </form>
+
+        @if (Model?.Data != null && Model.Data.Count > 0)
+        {
+            <h3>Costos de envío</h3>
+            <div class="costos-container">
+                @foreach (var costo in Model.Data)
+                {
+                    <div class="costo-card">
+                        <h4>@costo.Origen ➡ @costo.Destino</h4>
+                        <p><strong>Tamaño del paquete:</strong> @costo.Tamanio</p>
+                        <p><strong>Tipo de envío:</strong> @costo.Tipo</p>
+                        <p><strong>Costo:</strong> ₡@costo.Costo</p>
+                        <p><strong>Tiempo estimado:</strong> @costo.TiempoEstimado</p>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>Complete el formulario para realizar una consulta.</p>
+        }
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@model List<LibreriaDAIR.Models.OfertaModelo>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreriaDAIR</title>
+    <link rel="stylesheet" href="~/css/EstiloOfertas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="BarraNavegador">
+                <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+                <span class="BarraBoton" onclick="Menu()">☰</span>
+            </div>
+            <nav>
+                <ul class="BarraMenu" id="barramenu">
+                    <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                    <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                    <li><a href="/Libros/Index">Categorías</a></li>
+                    <li>
+                        <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </nav>
+            <script>
+                function Menu() {
+                    var menu = document.getElementById('barramenu');
+                    menu.classList.toggle('Activa');
+                }
+            </script>
+            <script>
+                function CerrarSesionCliente() {
+                    if (confirm("¿Desea cerrar la sesión?")) {
+                        window.location.href = '/Home/CerrarSesion';
+                    }
+                }
+            </script>
+        </header>
+        <main class="Libros">
+            <h2>Ofertas</h2>
+            <div id="contenedorLibros">
+                <div class="LibrosTarjetas">
+                    @foreach (var oferta in Model)
+                    {
+                        <div class="tarjeta">
+                            <a style="text-decoration: none;" href="@Url.Action("DetallesLibro", "Libros", new { id = oferta._IdLibro })">
+                                <img src="data:image/jpeg;base64,@oferta._Imagen" alt="@oferta._Titulo" />
+                                <div class="informacion">
+                                    <p>@oferta._Titulo</p>
+                                    <p>Precio normal: ₡@oferta._Precio</p>
+                                    <p>Ahora₡@oferta._PrecioDescuento</p>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>                 
+        </main>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

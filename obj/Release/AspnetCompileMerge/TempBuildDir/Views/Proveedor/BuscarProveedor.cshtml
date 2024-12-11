@@ -1,0 +1,93 @@
+﻿@model LibreriaDAIR.Models.RespuestaProveedor
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores</title>
+    <link rel="stylesheet" href="~/css/EstiloServicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="BarraNavegador">
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+            <span class="BarraBoton" onclick="Menu()">☰</span>
+        </div>
+        <nav>
+            <ul class="BarraMenu" id="barramenu">
+                <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                <li><a href="/Libros/Index">Categorías</a></li>
+                <li>
+                    <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function Menu() {
+                var menu = document.getElementById('barramenu');
+                menu.classList.toggle('Activa');
+            }
+        </script>
+        <script>
+            function CerrarSesionCliente() {
+                if (confirm("¿Desea cerrar la sesión?")) {
+                    window.location.href = '/Home/CerrarSesion';
+                }
+            }
+        </script>
+    </header>
+    <main>
+        <p class="bienvenida">
+            Bienvenido al servicio de consulta de proveedores de libros. Ingrese el
+            titulo del libro para consultar diversos proveedores
+        </p>
+        <br />
+        <form method="get" action="@Url.Action("BuscarProveedor")">
+            <div class="form-group">
+                <label for="titulolibro">Título del Libro:</label>
+                <input type="text" name="titulolibro" id="titulolibro" class="form-control" value="@Request.QueryString["titulolibro"]" />
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+
+        @if (Model?.Data != null && Model.Data.Count > 0)
+        {
+            <h3>Reseñas para el libro '@Request.QueryString["titulolibro"]'</h3>
+            <div class="proveedor-container">
+                @foreach (var resennia in Model.Data)
+                {
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>@resennia.TituloLibro</h4>
+                            <p class="author">@resennia.Autor</p>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Precio:</strong> @resennia.Precio</p>
+                            <p><strong>Estado:</strong> @resennia.Estado</p>
+                            <p><strong>Proveedor:</strong> @resennia.NombreProveedor</p>
+                            <p><strong>Contacto:</strong> @resennia.ContactoProveedor</p>
+                            <p><strong>Correo:</strong> @resennia.CorreoProveedor</p>
+                            <p><strong>Ubicación:</strong> @resennia.UbicacionProveedor</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else if (Request.QueryString["titulolibro"] != null)
+        {
+            <p>No se encontraron proveedores para el libro '@Request.QueryString["titulolibro"]'.</p>
+        }
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

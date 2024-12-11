@@ -1,0 +1,179 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="~/css/RegistroStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Incluir Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+        <header>
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+        </header>
+
+        <main>
+            <h2 class="text-center mb-4">Crea una cuenta</h2>
+            <form method="post" action="/Login/InsertarCliente">
+                <div class="form-group">
+                    <label for="identificacion">Identificación:</label>
+                    <input type="text" id="identificacion" name="identificacion"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["identificacion"] : "")" required />
+
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["nombre"] : "")" required />
+
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["apellidos"] : "")" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["telefono"] : "")" required />
+                </div>
+
+                <h3>Inicio de sesión</h3>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["email"] : "")" required />
+                </div>
+
+                <div class="form-group position-relative">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["password"] : "")" required />
+                    <i id="toggle-password" class="bi bi-eye-fill toggle-password-icon"></i>
+                </div>
+
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">La contraseña debe cumplir con:</h5>
+                        <ul>
+                            <li>Entre 8 y 10 caracteres</li>
+                            <li>Debe contener mayúsculas, minúsculas, números y un carácter especial</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Para mayor seguridad responda las siguientes preguntas</h3>
+
+                <div class="form-group">
+                    <label for="respuesta1">¿Cuál es su color favorito?:</label>
+                    <input type="text" id="respuesta1" name="respuesta1"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["respuesta1"] : "")" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="respuesta2">¿Cuál es su libro favorito?:</label>
+                    <input type="text" id="respuesta2" name="respuesta2"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["respuesta2"] : "")" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="respuesta3">¿Cuál es su canción favorita?:</label>
+                    <input type="text" id="respuesta3" name="respuesta3"
+                           value="@(ViewBag.FormData != null ? ViewBag.FormData["respuesta3"] : "")" required />
+                </div>
+
+                <!-- Mostrar mensaje de error si existe -->
+                @if (ViewBag.Error != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.Error
+                    </div>
+                }
+
+                <button type="submit" class="boton-crear">Crear cuenta</button>
+            </form>
+        </main>
+        <script>
+            document.getElementById("identificacion").addEventListener("blur", async function () {
+                const cedula = this.value.trim();
+                if (!cedula) {
+                    alert("Ingrese el número de cédula")
+                    return;
+                }
+
+                try {
+                    const response = await fetch(`http://localhost:3300/ConsultaTribunal/${cedula}`)
+
+                    if (!response.ok) {
+                        if (response.status === 404) {
+                            alert("La persona no se encuentra registrada");
+                        } else {
+                            throw new Error("Error al consultar la API: " + response.statusText);
+                        }
+                        return;
+                    }
+
+                    const data = await response.json();
+                    if (data.data && data.data.length > 0) {
+                        const persona = data.data[0]
+                        const nombreCompleto = persona.NombreCompleto || "";
+
+                        const [nombre, ...apellidos] = nombreCompleto.split(" ")
+
+                        const nombreInput = document.getElementById("nombre");
+                        const apellidosInput = document.getElementById("apellidos");
+
+                        nombreInput.value = nombre || "";
+                        apellidosInput.value = apellidos.join(" ") || "";
+
+                        // Forzar actualización visual
+                        nombreInput.setAttribute("value", nombre || "");
+                        apellidosInput.setAttribute("value", apellidos.join(" ") || "");
+                    }
+                    else {
+                        alert("La persona no se encuentra registrada")
+                    }
+                } catch (error) {
+                    console.error(error);
+                    alert("Error conectando con el servicio")
+                }              
+            });
+
+            document.getElementById("toggle-password").addEventListener("click", function () {
+                const passwordInput = document.getElementById("password");
+
+                // Alterna el tipo de input entre 'password' y 'text'
+                if (passwordInput.type === "password") {
+                    passwordInput.type = "text"; // Mostrar la contraseña
+                    this.classList.remove("bi-eye-fill"); // Cambia el ícono
+                    this.classList.add("bi-eye-slash-fill"); // Ícono para ocultar
+                } else {
+                    passwordInput.type = "password"; // Ocultar la contraseña
+                    this.classList.remove("bi-eye-slash-fill"); // Cambia el ícono
+                    this.classList.add("bi-eye-fill"); // Ícono para mostrar
+                }
+            });
+
+        </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Home/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Login/Index"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

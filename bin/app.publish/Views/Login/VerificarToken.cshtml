@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="~/css/EstiloToken.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+        <header>
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+        </header>
+        <main>
+            <h2>Verificación de cuenta</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">
+                    @ViewBag.Error
+                </div>
+            }
+
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-success">
+                    @ViewBag.Message
+                </div>
+            }
+
+            <p>Hemos enviado a su correo electrónico un token para verificar su cuenta. Ingrese el token aquí:</p>
+            <form action="@Url.Action("VerificarToken", "Login")" method="post">
+                <div class="form-group">
+                    <label for="token">Token:</label>
+                    <input type="text" class="form-control" id="token" name="token" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Verificar Token</button>
+            </form>
+            <br />
+        </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Home/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Login/Index"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
+

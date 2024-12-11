@@ -1,0 +1,92 @@
+﻿@model LibreriaDAIR.Models.RespuestaResenias
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de libros</title>
+    <link rel="stylesheet" href="~/css/EstiloServicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="BarraNavegador">
+            <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+            <span class="BarraBoton" onclick="Menu()">☰</span>
+        </div>
+        <nav>
+            <ul class="BarraMenu" id="barramenu">
+                <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                <li><a href="/Libros/Index">Categorías</a></li>
+                <li>
+                    <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function Menu() {
+                var menu = document.getElementById('barramenu');
+                menu.classList.toggle('Activa');
+            }
+        </script>
+        <script>
+            function CerrarSesionCliente() {
+                if (confirm("¿Desea cerrar la sesión?")) {
+                    window.location.href = '/Home/CerrarSesion';
+                }
+            }
+        </script>
+    </header>
+    <main>
+        <p class="bienvenida">
+            Bienvenido al servicio de reseñas de libros. Podrá encontrar
+            opiones y valoraciones de otros lectores, solo debe ingresar el título del libro
+            en el formulario y obtendrá las diversas reseñas
+        </p>
+        <br />
+        <form method="get" action="@Url.Action("BuscarResenias")">
+            <div class="form-group">
+                <label for="titulolibro">Título del Libro:</label>
+                <input type="text" name="titulolibro" id="titulolibro" class="form-control" value="@Request.QueryString["titulolibro"]" />
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+
+        @if (Model?.Data != null && Model.Data.Count > 0)
+        {
+            <h3>Reseñas para el libro '@Request.QueryString["titulolibro"]'</h3>
+            <div class="reseñas-container">
+                @foreach (var resennia in Model.Data)
+                {
+                    <div class="reseña-card">
+                        <div class="reseña-header">
+                            <h4>@resennia.Titulo</h4>
+                            <p class="usuario">@resennia.NombreUsuario</p>
+                        </div>
+                        <div class="reseña-body">
+                            <p><strong>Calificación:</strong> @resennia.Calificacion</p>
+                            <p><strong>Comentario:</strong> @resennia.Comentario</p>
+                            <p><strong>Fecha:</strong> @resennia.FechaResennia.ToShortDateString()</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else if (Request.QueryString["titulolibro"] != null)
+        {
+            <p>No se encontraron reseñas para el libro '@Request.QueryString["titulolibro"]'.</p>
+        }
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+

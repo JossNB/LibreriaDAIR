@@ -1,0 +1,23 @@
+{
+  "name": "Libreria DAIR",
+  "short_name": "DAIR",
+  "description": "Programa para simular un sistema de venta de libros",
+  "start_url": "/Onboarding/index",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#42a8a1",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/Content/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Content/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

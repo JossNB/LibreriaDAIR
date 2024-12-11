@@ -1,0 +1,134 @@
+﻿/* styles.css */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.onboarding-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.onboarding-steps {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.onboarding-step {
+    display: none;
+}
+
+    .onboarding-step img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+
+.onboarding-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #42a8a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+
+    button:hover {
+        background-color: #5dc1b9;
+    }
+
+/* Indicadores */
+.indicators {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+    .indicators div {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0.5;
+        transition: opacity 0.3s, transform 0.3s;
+    }
+
+        .indicators div.active {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .onboarding-steps {
+        width: 95%;
+    }
+
+    .onboarding-step img {
+        max-width: 300px; /* Reduce el tamaño máximo de las imágenes */
+        margin-bottom: 15px;
+    }
+
+    .onboarding-step p {
+        font-size: 14px; /* Reduce el tamaño de la fuente del texto */
+        margin: 0 10px;
+    }
+
+    button {
+        padding: 8px 16px; /* Reduce el tamaño de los botones */
+        font-size: 14px;
+    }
+
+    .indicators div {
+        width: 8px; /* Indicadores más pequeños */
+        height: 8px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 430px) {
+    .onboarding-steps {
+        width: 95%;
+    }
+
+    .onboarding-step img {
+        max-width: 300px; /* Reduce el tamaño máximo de las imágenes */
+        margin-bottom: 15px;
+    }
+
+    .onboarding-step p {
+        font-size: 14px; /* Reduce el tamaño de la fuente del texto */
+        margin: 0 10px;
+    }
+
+    button {
+        padding: 8px 16px; /* Reduce el tamaño de los botones */
+        font-size: 14px;
+    }
+
+    .indicators div {
+        width: 8px; /* Indicadores más pequeños */
+        height: 8px;
+    }
+}

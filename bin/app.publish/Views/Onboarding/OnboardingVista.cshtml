@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding</title>
+    <link rel="stylesheet" href="~/css/OnboardingStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json" />
+</head>
+<body>
+    <div id="onboardingContainer" class="onboarding-container">
+        <div id="onboardingSteps" class="onboarding-steps">
+            <!-- Paso 1 -->
+            <div id="step1" class="onboarding-step">
+                <img src="~/Imagenes/Verificacion.png" alt="Paso 1">
+                <p>Utilizamos un token para validar tu acceso. Asegúrate de tenerlo a la mano.</p>
+            </div>
+            <!-- Paso 2 -->
+            <div id="step2" class="onboarding-step">
+                <img src="~/Imagenes/Categorias.png" alt="Paso 2">
+                <p>Explora nuestra sección de categorías y encuentra los libros de tu interés.</p>
+            </div>
+            <!-- Paso 3 -->
+            <div id="step3" class="onboarding-step">
+                <img src="~/Imagenes/LibroDetalles.png" alt="Paso 3">
+                <p>Puedes consultar la información del libro y agregarlo facilmente al carrito. ¡Disfruta tu próxima lectura!</p>
+            </div>
+
+            <!-- Paso 4 -->
+            <div id="step3" class="onboarding-step">
+                <img src="~/Imagenes/Pasarela.png" alt="Paso 3">
+                <p>Completa tu compra sin preocupaciones, ingresa los datos de tu pago de manera fácil y segura.</p>
+            </div>
+        </div>
+
+        <div class="onboarding-controls">
+            <div id="indicators" class="indicators"></div>
+            <button id="nextButton" onclick="nextStep()">Siguiente</button>
+            <button id="exitButton" onclick="skipOnboarding()">Salir</button>
+        </div>
+    </div>
+    <script src="~/Scripts/ScriptOB.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js")
+                .then(() => console.log("Service Worker registrado correctamente."))
+                .catch((error) => console.error("Error al registrar el Service Worker:", error));
+        }
+    </script>
+</body>
+</html>

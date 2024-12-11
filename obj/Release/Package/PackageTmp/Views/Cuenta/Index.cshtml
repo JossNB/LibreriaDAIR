@@ -1,0 +1,180 @@
+﻿@model LibreriaDAIR.Models.InformacionViewModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información Cuenta</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/EstiloCuenta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="BarraNavegador">
+                <img src="~/Imagenes/LogoDAIR.png" alt="Logo de la app" class="logo">
+                <span class="BarraBoton" onclick="Menu()">☰</span>
+            </div>
+            <nav>
+                <ul class="BarraMenu" id="barramenu">
+                    <li><a class="Activa" href="/Principal/Index">Inicio</a></li>
+                    <li><a href="/Cuenta/Index">Mi cuenta</a></li>
+                    <li><a href="/Libros/Index">Categorías</a></li>
+                    <li>
+                        <a href="/Home/Index" onclick="event.preventDefault(); CerrarSesionCliente();">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </nav>
+            <script>
+                function Menu() {
+                    var menu = document.getElementById('barramenu');
+                    menu.classList.toggle('Activa');
+                }
+            </script>
+            <script>
+                function CerrarSesionCliente() {
+                    if (confirm("¿Desea cerrar la sesión?")) {
+                        window.location.href = '/Home/CerrarSesion';
+                    }
+                }
+            </script>
+        </header>
+        <main>
+            <!--Model carga la información del cliente-->
+            <h2>Información de la cuenta</h2>
+            <p><strong>Identificación: </strong>@Model._ClienteID</p>
+            <p><strong>Nombre: </strong>@Model._Nombre </p>
+            <p><strong>Apellidos: </strong>@Model._Apellidos</p>
+            <p><strong>Número de teléfono: </strong>@Model._Telefono</p>
+
+            <hr />
+
+            <!--Me permite mostrar un mensaje para indicar que se registrado la dirección-->
+            @if (TempData["Message"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["Message"]
+                </div>
+            }
+
+            <h3>Agregar Dirección</h3>
+            @using (Html.BeginForm("GuardarDireccion", "Cuenta", FormMethod.Post))
+            {
+                @Html.HiddenFor(model => model._ClienteID)
+
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    @Html.TextBoxFor(model => model._Direccion, new { @class = "form-control", placeholder = "Ingresa tu dirección" })
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="pais">País:</label>
+                    <select id="pais" name="_IdPais" class="form-control">
+                        <option value="">Seleccione un país</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="_Provincia" class="form-control" disabled>
+                        <option value="">Seleccione una provincia</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="canton">Cantón:</label>
+                    <select id="canton" name="_Canton" class="form-control" disabled>
+                        <option value="">Seleccione un cantón</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="distrito">Distrito:</label>
+                    <select id="distrito" name="_Distrito" class="form-control" disabled>
+                        <option value="">Seleccione un distrito</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="direccion">Código Postal:</label>
+                    @Html.TextBoxFor(model => model._CodPostal, new { @class = "form-control", placeholder = "Ingresa tu código postal" })
+                </div>
+
+                <button type="submit" class="boton-guardar">Guardar</button>
+            }
+        </main>
+        <script>
+            $(document).ready(function() {
+                cargarUbicacion('País');
+            });
+
+            $('#pais').change(function () {
+                cargarUbicacion('Provincia', $(this).val());
+            });
+
+            $('#provincia').change(function () {
+                cargarUbicacion('Cantón', $(this).val());
+            });
+
+            $('#canton').change(function () {
+                cargarUbicacion('Distrito', $(this).val());
+            });
+
+            function cargarUbicacion(relacion, id = null) {
+                $.ajax({
+                    url: '/Cuenta/ObtenerUbicaciones',
+                    type: 'GET',
+                    data: { relacion: id ? id : relacion },
+                    success: function (data) {
+                        let $select;
+
+                        if (relacion === 'País') {
+                            $select = $('#pais');
+                            $('#provincia').empty().append('<option value="">Seleccione una provincia</option>').prop('disabled', true);
+                            $('#canton').empty().append('<option value="">Seleccione un cantón</option>').prop('disabled', true);
+                            $('#distrito').empty().append('<option value="">Seleccione un distrito</option>').prop('disabled', true);
+                        } else if (relacion === 'Provincia') {
+                            $select = $('#provincia');
+                            $('#canton').empty().append('<option value="">Seleccione un cantón</option>').prop('disabled', true);
+                            $('#distrito').empty().append('<option value="">Seleccione un distrito</option>').prop('disabled', true);
+                        } else if (relacion === 'Cantón') {
+                            $select = $('#canton');
+                            $('#distrito').empty().append('<option value="">Seleccione un distrito</option>').prop('disabled', true);
+                        } else {
+                            $select = $('#distrito');
+                        }
+
+                        $select.empty().append('<option value="">Seleccione una ' + relacion.toLowerCase() + '</option>');
+                        $.each(data, function (index, item) {
+                            $select.append($('<option></option>').val(item.IdUbicacion).html(item.Descripcion));
+                        });
+
+                        if (relacion === 'País') {
+                            $select.prop('disabled', false);
+                        } else if (relacion === 'Provincia') {
+                            $('#provincia').prop('disabled', false);
+                        } else if (relacion === 'Cantón') {
+                            $('#canton').prop('disabled', false);
+                        } else {
+                            $('#distrito').prop('disabled', false);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            }   
+        </script>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Principal/Index"><i class="fas fa-home"></i></a></li>
+                <li><a href="/Carrito/Index"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
